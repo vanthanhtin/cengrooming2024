@@ -1,0 +1,172 @@
+body {
+    --black: #000000;
+    --ash-black: #222;
+    --white: #fafafa;
+    --sky: #00ccff;
+    --green: #22dddd;
+    --blue: #1300ff;
+    --dusk: #6600ff;
+    --purple: #9900ff;
+    --pink: #ff0066;
+    --red: #fe0222;
+    --orange: #fd7702;
+    --yellow: #ffbb00;
+  
+    --background: var(--white);
+    --accent: var(--pink);
+
+  }
+  
+
+.buttonMenu ::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background: white;
+    -webkit-border-radius: 1ex;
+}
+
+.buttonMenu ::-webkit-scrollbar-thumb {
+    background: red;
+    -webkit-border-radius: 1ex;
+}
+
+.buttonMenu ::-webkit-scrollbar-corner {
+    background: #fff3;
+}
+
+
+.buttonMenu .box {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: red;
+    margin: 0;
+}
+
+.buttonMenu .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 400px;
+    background: #2c241e;
+    padding-top: 100px;
+    transform: translateX(-100%);
+    will-change: transform;
+    @media (min-width: 768px) {
+        
+        display: none !important;
+    
+}
+}
+
+.buttonMenu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+}
+
+.buttonMenu li {
+    color: white;
+    display: block;
+    transform-origin: -20px 50%;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    will-change: transform, opacity, filter;
+}
+.buttonMenu li:focus {
+    color: #F69946;
+}
+
+.buttonMenu ul, li {
+    list-style: none;
+    margin: 0;
+}
+
+
+.buttonMenu button {
+    outline: none;
+    border: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor: pointer;
+    position: absolute;
+    top: 11px;
+    left: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #2c241e;
+    padding: 10px;
+    display: block;
+
+    @media (min-width: 768px) {
+        
+            display: none !important;
+        
+    }
+}
+
+.buttonMenu button path {
+    fill: white;
+}
+
+/* .buttonMenu input {
+    accent-color: red;
+} */
+
+.buttonMenu .controls {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+.buttonMenu label {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+/* .buttonMenu input[type="number"] {
+    border: 0;
+    border-bottom: 1px dotted red;
+    color: red;
+    margin-left: 10px;
+    background: white;
+    width: 50px;
+}
+
+.buttonMenu input[type="number"]:focus {
+    outline: none;
+    border-bottom: 2px solid red;
+}
+
+.buttonMenu input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.buttonMenu .example {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+} */
+
+.buttonMenu .item {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background: red;
+    color: white;
+    font-size: 240px;
+    line-height: 260px;
+    font-weight: 700;
+    border-radius: 30px;
+}

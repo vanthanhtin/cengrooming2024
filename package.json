@@ -1,0 +1,87 @@
+{
+  "name": "ecommerce-shop",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@coreui/coreui-pro": "^5.5.0",
+    "@coreui/react-pro": "^5.7.0",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.16",
+    "@material-tailwind/react": "^2.1.1",
+    "@mui/icons-material": "^5.14.9",
+    "@mui/material": "^5.16.7",
+    "@mui/styled-engine-sc": "^6.1.5",
+    "@react-google-maps/api": "^2.18.1",
+    "@react-icons/all-files": "^4.1.0",
+    "@react-three/fiber": "^8.14.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "aos": "^2.3.4",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "daisyui": "^4.12.14",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "flowbite": "^1.8.1",
+    "flowbite-react": "^0.6.0",
+    "framer-motion": "^10.16.4",
+    "framer-motion-3d": "^10.16.4",
+    "google-map-react": "^2.2.0",
+    "hamburger-react": "^2.5.1",
+    "ionic": "^5.4.16",
+    "mongoose": "^7.5.0",
+    "react": "^18.2.0",
+    "react-animated-progress-bar": "^1.1.2",
+    "react-custom-scrollbars-2": "^4.5.0",
+    "react-daisyui": "^5.0.5",
+    "react-dom": "^18.2.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.30.2",
+    "react-toastify": "^10.0.6",
+    "react-use": "^17.5.1",
+    "serve": "^14.2.4",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.13",
+    "swiper": "^10.2.0",
+    "three": "^0.156.1",
+    "tw-elements": "^2.0.0",
+    "typed.js": "^2.0.14",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.19",
+    "react-icons": "^4.11.0",
+    "react-router-dom": "^6.4.3",
+    "tailwind-styled-components": "^2.2.0",
+    "tailwindcss": "^3.2.4"
+  }
+}
